@@ -63,9 +63,9 @@
   
   th {
     text-align: center;
-  	background-color: #3265C2;
-  	color: white;
-  	height: 30px;
+    background-color: #3265C2;
+    color: white;
+    height: 30px;
   }
 
   td {
@@ -112,86 +112,494 @@
 
 <div>
 
+<h3>Audio samples </h3>
+
+
+<div>
+
+  This page presents audio samples for our submission <em>Bitrate-Informed Coded Speech Enhancement</em>.
+  <br/>
+  <br/>
+
+  The coded speech samples, and its enhanced speech samples by the proposed bitrate-informed coded speech enhancement model for LC3plus and AMR-WB codecs are shown here. Their corresponding clean speech samples before encoding are provided for comparison as well.
+  Speech samples for LC3plus and AMR-WB codec include 5 bitrate and 8 bitrate speech samples, respectively,  which are the same as experiments in our submission. There are 3 samples for each bitrate of each codec. 
+  <br/>
+  <br/>
+
+All experiment parameters are as described in our submission.
+</div>
+
+<br>
 <br/>
-<em>A DOA Dependent Feature Extraction for Selective Speaker Separation With a U-Net Architecture</em>
-
-<h2>Audio Samples </h2>
-<h4>VI-C. Selected Example</h4>
-
+<b>Samples for LC3plus codec:</b>
+<br>
+<br/>
 <table class="tb" border="1"id="ref" style="width:90%">
 <thead>
 <tr>
-  <th align="center">noisy microphone signal</th>
+  <th align="center">bitrate and sample number</th>
+  <th align="center">coded speech signals</th>
+  <th align="center">enhanced speech signals</th>
   <th align="center">clean speech signals</th>
 </tr>
 </thead>
 <tbody>
 <tr>
+  <td align="center">16 kbps, Sample 1</td>
   <td align="center">
-     <audio controls=true  style="width: 100%" src="./audio/mic_chref.wav"></audio>
+     <audio controls=true  style="width: 90%" src="./lc3_12/coded_12_16k.wav"></audio>
   </td>
   <td align="center">
-    <audio controls=true  style="width: 50%" src="./audio/clean_speaker1.wav"></audio><audio controls=true  style="width: 50%" src="./audio/clean_speaker2.wav"></audio>
+    <audio controls=true  style="width: 90%" src="./lc3_12/lc3_12_16k.wav"></audio>
   </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_12/clean_12.wav"></audio>
+</tr>
+<tr>
+  <td align="center">16 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_24/coded_24_16k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_24/lc3_24_16k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_24/clean_24.wav"></audio>
+</tr>
+<tr>
+  <td align="center">16 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_36/coded_36_16k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_36/lc3_36_16k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_36/clean_36.wav"></audio>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+  <td align="center">24 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_12/coded_12_24k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_12/lc3_12_24k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_12/clean_12.wav"></audio>
+</tr>
+<tr>
+  <td align="center">24 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_24/coded_24_24k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_24/lc3_24_24k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_24/clean_24.wav"></audio>
+</tr>
+<tr>
+  <td align="center">24 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_36/coded_36_24k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_36/lc3_36_24k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_36/clean_36.wav"></audio>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+  <td align="center">32 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_12/coded_12_32k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_12/lc3_12_32k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_12/clean_12.wav"></audio>
+</tr>
+<tr>
+  <td align="center">32 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_24/coded_24_32k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_24/lc3_24_32k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_24/clean_24.wav"></audio>
+</tr>
+<tr>
+  <td align="center">32 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_36/coded_36_32k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_36/lc3_36_32k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_36/clean_36.wav"></audio>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+  <td align="center">48 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_12/coded_12_48k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_12/lc3_12_48k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_12/clean_12.wav"></audio>
+</tr>
+<tr>
+  <td align="center">48 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_24/coded_24_48k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_24/lc3_24_48k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_24/clean_24.wav"></audio>
+</tr>
+<tr>
+  <td align="center">48 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_36/coded_36_48k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_36/lc3_36_48k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_36/clean_36.wav"></audio>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+<tr>
+  <td align="center">64 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_12/coded_12_64k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_12/lc3_12_64k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_12/clean_12.wav"></audio>
+</tr>
+<tr>
+  <td align="center">64 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_24/coded_24_64k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_24/lc3_24_64k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_24/clean_24.wav"></audio>
+</tr>
+<tr>
+  <td align="center">64 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./lc3_36/coded_36_64k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_36/lc3_36_64k.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./lc3_36/clean_36.wav"></audio>
 </tr>
 </tbody>
 </table>
 <br/>
+<br>
+<br/>
 
-<table class="tb" border="1"id="speaker1" style="width:90%">
+<b>Samples for AMR-WB codec:</b>
+<br>
+<br/>
+<table class="tb" border="1"id="ref" style="width:90%">
 <thead>
 <tr>
-  <th align="center" style="width: 30%">female speaker target (as in paper)</th>
-  <th align="center" style="width: 35%">low-complexity (LC)</th>
-  <th align="center" style="width: 35%">high-complexity (HC)</th>
+  <th align="center">bitrate and sample number</th>
+  <th align="center">coded speech signals</th>
+  <th align="center">enhanced speech signals</th>
+  <th align="center">clean speech signals</th>
 </tr>
 </thead>
 <tbody>
+
 <tr>
-  <td align="center">location-based training (LBT)</td>
-  <td align="center"><audio controls=true style="width: 100%" src="./audio/lbt_64_64_speaker1.wav"></audio></td>
-  <td align="center"><audio controls=true style="width: 100%"  src="./audio/lbt_64_256_speaker1.wav"></audio></td>
+  <td align="center">6.65 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_12/coded_12_6k65.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/amr_12_665.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/clean_12.wav"></audio>
 </tr>
 <tr>
-  <td align="center">location-based input features (LBI)</td>
-  <td align="center"><audio controls=true style="width: 100%"  src="./audio/lbi_64_64_speaker1.wav"></audio></td>
-  <td align="center"><audio controls=true style="width: 100%"  src="./audio/lbi_64_256_speaker1.wav"></audio></td>
+  <td align="center">6.65 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_24/coded_24_6k65.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/amr_24_665.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/clean_24.wav"></audio>
 </tr>
 <tr>
-  <td align="center">location dependent feature extraction (LDE)</td>
-  <td align="center"><audio controls=true style="width: 100%"  src="./audio/lde_64_64_speaker1.wav"></audio></td>
-  <td align="center"><audio controls=true style="width: 100%"  src="./audio/lde_64_256_speaker1.wav"></audio></td>
+  <td align="center">6.65 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_36/coded_36_6k65.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/amr_36_665.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/clean_36.wav"></audio>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr>
+  <td align="center">8.85 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_12/coded_12_8k85.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/amr_12_885.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/clean_12.wav"></audio>
+</tr>
+  <td align="center">8.85 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_24/coded_24_8k85.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/amr_24_885.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/clean_24.wav"></audio>
+</tr>
+  <td align="center">8.85 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_36/coded_36_8k85.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/amr_36_885.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/clean_36.wav"></audio>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr>
+  <td align="center">12.65 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_12/coded_12_12k65.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/amr_12_1265.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/clean_12.wav"></audio>
+</tr>
+  <td align="center">12.65 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_24/coded_24_12k65.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/amr_24_1265.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/clean_24.wav"></audio>
+</tr>
+  <td align="center">12.65 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_36/coded_36_12k65.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/amr_36_1265.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/clean_36.wav"></audio>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr>
+  <td align="center">14.25 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_12/coded_12_14k25.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/amr_12_1425.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/clean_12.wav"></audio>
+</tr>
+  <td align="center">14.25 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_24/coded_24_14k25.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/amr_24_1425.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/clean_24.wav"></audio>
+</tr>
+  <td align="center">14.25 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_36/coded_36_14k25.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/amr_36_1425.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/clean_36.wav"></audio>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr>
+  <td align="center">15.85 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_12/coded_12_15k85.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/amr_12_1585.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/clean_12.wav"></audio>
+</tr>
+  <td align="center">15.85 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_24/coded_24_15k85.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/amr_24_1585.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/clean_24.wav"></audio>
+</tr>
+  <td align="center">15.85 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_36/coded_36_15k85.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/amr_36_1585.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/clean_36.wav"></audio>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr>
+  <td align="center">18.25 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_12/coded_12_18k25.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/amr_12_1825.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/clean_12.wav"></audio>
+</tr>
+  <td align="center">18.25 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_24/coded_24_18k25.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/amr_24_1825.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/clean_24.wav"></audio>
+</tr>
+  <td align="center">18.25 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_36/coded_36_18k25.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/amr_36_1825.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/clean_36.wav"></audio>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr>
+  <td align="center">19.85 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_12/coded_12_19k85.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/amr_12_1985.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/clean_12.wav"></audio>
+</tr>
+  <td align="center">19.85 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_24/coded_24_19k85.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/amr_24_1985.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/clean_24.wav"></audio>
+</tr>
+  <td align="center">19.85 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_36/coded_36_19k85.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/amr_36_1985.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/clean_36.wav"></audio>
+</tr>
+<tr><td colspan="2">&nbsp;</td></tr>
+
+<tr>
+  <td align="center">23.05 kbps, Sample 1</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_12/coded_12_23k05.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/amr_12_2305.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_12/clean_12.wav"></audio>
+</tr>
+  <td align="center">23.05 kbps, Sample 2</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_24/coded_24_23k05.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/amr_24_2305.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_24/clean_24.wav"></audio>
+</tr>
+  <td align="center">23.05 kbps, Sample 3</td>
+  <td align="center">
+     <audio controls=true  style="width: 90%" src="./amr_36/coded_36_23k05.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/amr_36_2305.wav"></audio>
+  </td>
+  <td align="center">
+    <audio controls=true  style="width: 90%" src="./amr_36/clean_36.wav"></audio>
 </tr>
 </tbody>
 </table>
 <br/>
-
-<table class="tb" border="1"id="speaker2" style="width:90%">
-<thead>
-<tr>
-  <th align="center" style="width: 30%">male speaker target</th>
-  <th align="center" style="width: 35%">low-complexity (LC)</th>
-  <th align="center" style="width: 35%">high-complexity (HC)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-  <td align="center">location-based training (LBT)</td>
-  <td align="center"><audio controls=true style="width: 100%" src="./audio/lbt_64_64_speaker2.wav"></audio></td>
-  <td align="center"><audio controls=true style="width: 100%"  src="./audio/lbt_64_256_speaker2.wav"></audio></td>
-</tr>
-<tr>
-  <td align="center">location-based input features (LBI)</td>
-  <td align="center"><audio controls=true style="width: 100%"  src="./audio/lbi_64_64_speaker2.wav"></audio></td>
-  <td align="center"><audio controls=true style="width: 100%"  src="./audio/lbi_64_256_speaker2.wav"></audio></td>
-</tr>
-<tr>
-  <td align="center">location dependent feature extraction (LDE)</td>
-  <td align="center"><audio controls=true style="width: 100%"  src="./audio/lde_64_64_speaker2.wav"></audio></td>
-  <td align="center"><audio controls=true style="width: 100%"  src="./audio/lde_64_256_speaker2.wav"></audio></td>
-</tr>
-</tbody>
-</table>
 
 </body>
 
